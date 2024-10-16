@@ -1,0 +1,24 @@
+
+$primary: #0074d9;
+$danger: #ff4136;
+
+$theme-colors: (
+    "primary": $primary,
+    "danger": $danger
+);
+
+// Create your own map
+$custom-colors: (
+    "moderate-violet": #7541c8,
+    "very-dark-grayish-blue": #48556a,
+    "very-dark-blackish-blue": #19212e,
+    "light-gray": #cfcfcf,
+    "light-grayish-blue": #ecf2f8,
+
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
