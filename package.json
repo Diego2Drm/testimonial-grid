@@ -8,7 +8,7 @@
     "deploy": "gh-pages -d src"
   },
   "keywords": [],
-  "author": "",
+  "author": "Diego Ramirez",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.3"
