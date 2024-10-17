@@ -4,12 +4,16 @@
   "description": "![Design preview for the Testimonials grid section coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "build": "purgecss --css css/styles.css --content src/index.html -o css/style.css"
+    "build": "purgecss --css css/styles.css --content src/index.html -o css/style.css",
+    "deploy": "gh-pages -d src"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
