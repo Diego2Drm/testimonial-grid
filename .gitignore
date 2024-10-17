@@ -295,3 +295,4 @@ $RECYCLE.BIN/
 
 # ignore package-lock.json
 /package-lock.json
+/css/styles.css
